@@ -11,3 +11,6 @@ for j in range(len(c_1)):
             c_1[j,i] = r[j,i+1]
         else:
             break
+for i in range(len(c_1[0])):
+    plt.figure()
+    plt.scatter(precios, c_1[:,i])
